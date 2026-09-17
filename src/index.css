@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Force hide Netlify bottom-right feedback banner/drawer */
+netlify-drawer,
+[data-netlify-drawer],
+#netlify-drawer,
+.netlify-drawer,
+iframe[src*="netlify"],
+div[class*="netlify-drawer"],
+div[id*="netlify-feedback"] {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
 :root {
   color-scheme: dark;
 }

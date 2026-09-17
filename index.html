@@ -14,6 +14,16 @@
   </head>
   <body class="bg-midnight-950 text-slate-100 selection:bg-rose-500 selection:text-white overflow-x-hidden antialiased">
     <div id="root"></div>
+    <script>
+      // Automatically remove any injected Netlify drawer/banner widgets
+      const removeNetlifyDrawer = () => {
+        const elements = document.querySelectorAll('netlify-drawer, [data-netlify-drawer], #netlify-drawer, .netlify-drawer');
+        elements.forEach(el => el.remove());
+      };
+      const observer = new MutationObserver(removeNetlifyDrawer);
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+      window.addEventListener('DOMContentLoaded', removeNetlifyDrawer);
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
