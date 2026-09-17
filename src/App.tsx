@@ -204,7 +204,7 @@ export const App: React.FC = () => {
                   Best Wishes & Prayers —
                 </span>
                 <span className="block font-serif italic text-base sm:text-lg text-amber-300 font-bold">
-                  Shahriar Nafis 🤲✨
+                  Shahariar Nafis
                 </span>
               </div>
             </div>
