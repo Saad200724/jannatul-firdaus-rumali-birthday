@@ -67,7 +67,7 @@ export const HeroSection: React.FC = () => {
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-gold-400/40 text-gold-300 shadow-gold-glow/20 animate-float">
           <Crown className="w-4 h-4 text-gold-400 fill-gold-400 animate-pulse" />
           <span className="text-xs uppercase tracking-[0.25em] font-semibold">
-            Honoring The Birthday Queen • 18th September
+            The Golden 18th Birthday • 18 Sept 2008
           </span>
           <Sparkles className="w-4 h-4 text-gold-300" />
         </div>
@@ -75,7 +75,7 @@ export const HeroSection: React.FC = () => {
         {/* Main Grand Typography */}
         <div className="space-y-3">
           <p className="text-lg md:text-xl text-rose-300/90 font-serif italic tracking-wide">
-            Wishing a glorious & unforgettable birthday to
+            Celebrating 18 Golden Years of Grace & Light
           </p>
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black font-cinzel tracking-tight leading-none text-white drop-shadow-2xl">
             <span className="block gold-gradient-text">Jannatul Firdaus</span>
@@ -83,6 +83,11 @@ export const HeroSection: React.FC = () => {
               Rumali
             </span>
           </h1>
+          <div className="inline-flex items-center gap-3 pt-2">
+            <span className="px-3.5 py-1 rounded-full bg-gold-400/10 border border-gold-400/30 text-gold-300 text-xs sm:text-sm font-cinzel font-bold tracking-widest">
+              ✨ 18 YEARS • 2008 - 2026 ✨
+            </span>
+          </div>
         </div>
 
         {/* Subtitle / Meaning */}

@@ -81,14 +81,14 @@ export const BirthdayCake: React.FC = () => {
           <div className="relative w-44 sm:w-52 h-14 bg-gradient-to-r from-pink-300 via-rose-200 to-pink-300 rounded-t-2xl shadow-lg border-b-4 border-pink-400 flex items-center justify-around px-3 z-20">
             <span className="text-xs text-rose-800 font-script font-bold text-sm">Rumali</span>
             <Sparkles className="w-3.5 h-3.5 text-rose-700" />
-            <span className="text-xs text-rose-800 font-cinzel font-bold">18th Sept</span>
+            <span className="text-xs text-rose-800 font-cinzel font-bold">18th • 2008</span>
           </div>
 
           {/* Tier 2 (Middle Tier) */}
           <div className="relative w-60 sm:w-72 h-16 bg-gradient-to-r from-amber-100 via-amber-200 to-amber-100 rounded-t-2xl shadow-lg border-b-4 border-amber-300 flex items-center justify-between px-6 z-10 -mt-1">
             <div className="w-3 h-3 rounded-full bg-rose-400 shadow-sm"></div>
             <div className="w-3 h-3 rounded-full bg-gold-500 shadow-sm"></div>
-            <div className="w-3 h-3 rounded-full bg-rose-400 shadow-sm"></div>
+            <span className="text-[11px] font-cinzel font-extrabold text-amber-900 tracking-wider">★ 18 YEARS ★</span>
             <div className="w-3 h-3 rounded-full bg-gold-500 shadow-sm"></div>
             <div className="w-3 h-3 rounded-full bg-rose-400 shadow-sm"></div>
           </div>
@@ -150,7 +150,7 @@ export const BirthdayCake: React.FC = () => {
 
               <div className="p-4 rounded-2xl bg-midnight-950/60 border border-white/10 text-slate-200 text-sm leading-relaxed text-left font-light">
                 <p>
-                  Dear <strong>Rumali</strong>, on this 18th of September, may your coming year be wrapped in boundless joy, divine peace, triumphant success, and unconditional warmth. May you always walk with your signature grace and infectious light! 🌟
+                  Dear <strong>Rumali</strong>, on this Golden 18th Birthday (Born 18th September 2008), may your adult journey be wrapped in boundless joy, divine peace, triumphant success, and unconditional warmth. May you always walk with your signature grace and infectious light! 🌟
                 </p>
               </div>
 

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Award, Download, Crown, Check } from 'lucide-react';
+import { Award, Download, Crown, Check, Heart } from 'lucide-react';
 import html2canvas from 'html2canvas';
 import { soundFx } from '../utils/audio';
 import { triggerLuxuryConfetti } from '../utils/confetti';
@@ -86,23 +86,27 @@ export const BirthdayKeepsake: React.FC = () => {
 
             {/* Honorary Title Badge */}
             <div className="inline-block px-6 py-2 rounded-full bg-white/5 border border-gold-400/40 text-gold-200 font-cinzel text-sm sm:text-base font-bold shadow-sm">
-              ✨ Queen of Starlight & Grace ✨
+              ✨ 18th Golden Birthday • Queen of Grace ✨
             </div>
 
             <p className="text-slate-300 text-xs sm:text-sm max-w-lg mx-auto font-light leading-relaxed">
-              In celebration of your birthday on <strong>18th September</strong>. In recognition of your immense kindness, radiant smile, brilliant intellect, and the pure joy you bestow upon everyone blessed to know you.
+              Commemorating 18 luminous years of life since <strong>18th September 2008</strong>. In recognition of your immense kindness, radiant smile, brilliant intellect, and the pure joy you bestow upon the universe.
             </p>
 
             {/* Signature & Date Ribbon */}
             <div className="pt-6 border-t border-gold-400/20 flex justify-between items-end px-4">
               <div className="text-left space-y-1">
-                <span className="block text-[10px] uppercase text-slate-400 tracking-wider">Date of Honor</span>
-                <span className="font-cinzel text-sm font-bold text-gold-300">18th September</span>
+                <span className="block text-[10px] uppercase text-slate-400 tracking-wider">Date of Birth</span>
+                <span className="font-cinzel text-sm font-bold text-gold-300">18 Sept 2008</span>
+              </div>
+
+              <div className="w-12 h-12 rounded-full border border-gold-400/40 flex items-center justify-center text-rose-400">
+                <Heart className="w-6 h-6 fill-rose-400" />
               </div>
 
               <div className="text-right space-y-1">
-                <span className="block text-[10px] uppercase text-slate-400 tracking-wider">Royal Seal</span>
-                <span className="font-script text-xl text-rose-300">Celebration Team ✨</span>
+                <span className="block text-[10px] uppercase text-slate-400 tracking-wider">Milestone</span>
+                <span className="font-cinzel text-xs font-bold text-rose-300">18 Golden Years ✨</span>
               </div>
             </div>
           </div>
