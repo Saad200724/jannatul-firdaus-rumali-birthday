@@ -173,9 +173,15 @@ export const App: React.FC = () => {
                   <span className="text-[11px] text-rose-900 font-serif font-bold tracking-wider">Rumali • 18</span>
                 </div>
 
-                {/* Cake Tier 2 (Base Tier) */}
-                <div className="w-52 h-12 bg-gradient-to-r from-amber-100 via-yellow-50 to-amber-100 rounded-t-xl shadow-lg border-b-2 border-amber-300 flex items-center justify-between px-4 -mt-0.5">
-                  <span className="text-[10px] text-amber-900 font-bold tracking-widest uppercase">✨ 18th Sept 2008 ✨</span>
+                {/* Cake Tier 2 (Base Tier) */} 
+                <div className="w-52 h-12 bg-gradient-to-r from-amber-100 via-yellow-50 to-amber-100 rounded-t-xl shadow-lg border-b-2 border-amber-300 flex items-center justify-between px-4 -mt-0.5"> 
+                <p className="w-full flex justify-between text-[10px] text-amber-900 font-bold tracking-widest uppercase">
+                    <span>✨</span>
+                    <span>18th</span>
+                    <span>Sept</span>
+                    <span>2008</span>
+                    <span>✨</span>
+                </p>
                 </div>
 
                 {/* Cake Stand */}
